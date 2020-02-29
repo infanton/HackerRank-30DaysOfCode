@@ -20,7 +20,7 @@ class Person{
           {
               echo "You are young.\n";
           }
-          else if($this->age >= 13 && $this->age < 18)
+          else if($this->age < 18)
           {
               echo "You are a teenager.\n";
           }
