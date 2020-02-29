@@ -22,7 +22,7 @@ class Person {
           {
               Console.WriteLine("You are young.");
           }
-          else if(this.age >= 13 && this.age < 18)
+          else if(this.age < 18)
           {
               Console.WriteLine("You are a teenager.");
           }
